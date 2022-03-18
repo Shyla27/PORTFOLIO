@@ -8,12 +8,14 @@ header h2 {
   align-items: center;
   color: #172b4d;
 }
+
 .nav-bar {
   position: absolute;
   top: 44px;
   display: flex;
 }
-.nav-bar h2 { 
+
+.nav-bar h2 {
   font-size: 18px;
   line-height: 20px;
   vertical-align: middle;
@@ -26,8 +28,9 @@ header h2 {
   width: 100px;
   height: 40px;
   left: 12px;
-  top: calc(50% - 40px /2);
+  top: calc(50% - 40px / 2);
 }
+
 .nav-bar img {
   position: absolute;
   display: flex;
@@ -38,8 +41,9 @@ header h2 {
   width: 100px;
   height: 40px;
   left: 12px;
-  top: calc(50% - 40px /2);
+  top: calc(50% - 40px / 2);
 }
+
 .header-title {
   display: flex;
   flex-direction: column;
@@ -49,7 +53,7 @@ header h2 {
   padding: 114px 24px;
   width: 375px;
   height: 604px;
-  left: calc(50% - 405px /2);
+  left: calc(50% - 405px/ 2);
 }
 
 header p {
@@ -68,7 +72,7 @@ header p {
   position: static;
   color: #7f8cff;
   flex: none;
-  margin: 0px 8px;
+  margin: 8px;
 }
 
 .socials ul li {
