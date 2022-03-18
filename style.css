@@ -1,0 +1,98 @@
+header {
+  background-image: url(images/header-background-mobile.jpg);
+}
+
+header h2 {
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 44px;
+  display: flex;
+}
+
+.nav-bar h2 {
+  font-size: 18px;
+  line-height: 20px;
+  vertical-align: middle;
+  color: #6070ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+}
+
+.nav-bar img {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 92px;
+  padding: 114px 24px;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 405px / 2);
+}
+
+header p {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+}
+
+.socials h4 {
+  font-size: 16px;
+  line-height: 24px;
+  position: static;
+  color: #7f8cff;
+  flex: none;
+  margin: 8px;
+}
+
+.socials ul li {
+  list-style-type: none;
+}
+
+.socials ul {
+  display: flex;
+  padding: 0;
+}
+
+.socials ul li img {
+  margin-right: 20px;
+  width: 18px;
+}
+
+.header-title #icons {
+  position: relative;
+  width: 462px;
+  height: 587.15px;
+  left: -34px;
+  top: 104px;
+}
